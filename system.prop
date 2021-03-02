@@ -23,6 +23,9 @@ persist.debug.coresight.config=stm-events
 # DPM
 persist.vendor.dpm.feature=9
 
+# GBoard Spacing
+ro.com.google.ime.kb_pad_port_b=1
+
 # GPS
 persist.vendor.overlay.izat.optin=rro
 
