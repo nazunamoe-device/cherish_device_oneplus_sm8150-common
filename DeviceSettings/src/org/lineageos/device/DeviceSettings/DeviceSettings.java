@@ -53,6 +53,8 @@ public class DeviceSettings extends PreferenceFragment
     public static final String KEY_DC_SWITCH = "dc";
     public static final String KEY_DCI_SWITCH = "dci";
     public static final String KEY_NIGHT_SWITCH = "night";
+    public static final String KEY_NATURAL_SWITCH = "natural";
+    public static final String KEY_VIVID_SWITCH = "vivid";
 
     public static final String KEY_SETTINGS_PREFIX = "device_setting_";
 
