@@ -64,4 +64,10 @@
     <!-- Whether key handler sends intent when changing slider position -->
     <string name="config_alertSliderIntent">org.lineageos.device.DeviceSettings.UPDATE_SLIDER_POSITION</string>
 
+    <!-- NightLight FOD -->
+    <bool name="disable_fod_night_light">true</bool>
+    
+    <!-- Shows the required view for in-display fingerprint -->
+    <bool name="config_supportsInDisplayFingerprint">true</bool>
+
 </resources>
