@@ -193,6 +193,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
 
+# Device Settings
+PRODUCT_PACKAGES += \
+    DeviceSettings
+    
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.4-service \
@@ -422,9 +426,8 @@ PRODUCT_PACKAGES += \
 
 # tri-state key
 PRODUCT_PACKAGES += \
-    KeyHandler \
     tri-state-key_daemon
-
+    
 # Update engine
 PRODUCT_PACKAGES += \
     update_engine \
