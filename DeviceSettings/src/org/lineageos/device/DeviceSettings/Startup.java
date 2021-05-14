@@ -73,11 +73,6 @@ public class Startup extends BroadcastReceiver {
         mHBM = false;
         restore(VividModeSwitch.getFile(), enabled);
         }
-        enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_NIGHT_SWITCH, false);
-        if (enabled) {
-        mHBM = false;
-        restore(NightModeSwitch.getFile(), enabled);
-        }
         Utils.enableService(context);
     }
 
