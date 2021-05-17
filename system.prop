@@ -11,6 +11,9 @@ vendor.bluetooth.soc=cherokee
 persist.vendor.bt.a2dp.aac_whitelist=false
 ro.bluetooth.library_name=libbluetooth_qti.so
 
+# Blurrr
+ro.surface_flinger.supports_background_blur=1
+
 # Charger
 ro.charger.enable_suspend=true
 
