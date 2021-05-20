@@ -14,4 +14,5 @@
 
 <resources>
     <color name="rr_config_icon_tint">@*android:color/accent_device_default_light</color>
+    <color name="settings_background">#eb0029</color>
 </resources>
