@@ -73,6 +73,11 @@ public class Startup extends BroadcastReceiver {
         mHBM = false;
         restore(VividModeSwitch.getFile(), enabled);
         }
+        enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_WIDECOLOR_SWITCH, false);
+        if (enabled) {
+        mHBM = false;
+        restore(WideColorModeSwitch.getFile(), enabled);
+        }
         Utils.enableService(context);
     }
 

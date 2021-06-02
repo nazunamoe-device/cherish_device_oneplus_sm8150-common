@@ -52,6 +52,7 @@ public class DeviceSettings extends PreferenceFragment
     public static final String KEY_HBM_AUTOBRIGHTNESS_THRESHOLD = "hbm_autobrightness_threshould";
     public static final String KEY_DC_SWITCH = "dc";
     public static final String KEY_DCI_SWITCH = "dci";
+    public static final String KEY_WIDECOLOR_SWITCH = "widecolor";
     public static final String KEY_NATURAL_SWITCH = "natural";
     public static final String KEY_VIVID_SWITCH = "vivid";
 
