@@ -1,6 +1,7 @@
 /**
  * Copyright (C) 2016 The CyanogenMod project
  *               2017 The LineageOS Project
+ *               2021 The CherishOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -34,8 +35,8 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceFragment;
 import androidx.preference.PreferenceManager;
 
-import com.android.internal.xtended.hardware.LineageHardwareManager; // Need FWB support
-import com.android.internal.xtended.hardware.TouchscreenGesture; // Need FWB support
+import com.android.internal.cherish.hardware.LineageHardwareManager; // Need FWB support
+import com.android.internal.cherish.hardware.TouchscreenGesture; // Need FWB support
 
 import org.lineageos.device.DeviceSettings.R;
 
